@@ -10,6 +10,7 @@ gem 'jbuilder',     '2.1.3'
 gem 'sdoc',         '0.4.0', group: :doc
 gem 'tzinfo-data'
 gem 'bootstrap-sass', '3.2.0.0'
+gem 'bcrypt',         '3.1.7'
 
 group :test do
   gem 'minitest-reporters', '1.0.5'
