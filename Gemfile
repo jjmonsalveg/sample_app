@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+#ruby   '2.1.1'
 gem 'rails',        '4.1.5'
 gem 'sass-rails',   '4.0.3'
 gem 'uglifier',     '2.5.1'
@@ -25,6 +25,8 @@ group :development do
 end
 
 group :production do
+  ruby   '2.1.1'
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
+  gem 'unicorn',        '4.8.3'
 end
