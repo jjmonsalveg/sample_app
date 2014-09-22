@@ -25,7 +25,7 @@ group :development do
 end
 
 group :production do
-  ruby   '2.1.1'
+ # ruby   '2.1.1'
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
   gem 'unicorn',        '4.8.3'
