@@ -11,6 +11,10 @@ gem 'sdoc',         '0.4.0', group: :doc
 gem 'tzinfo-data'
 gem 'bootstrap-sass', '3.2.0.0'
 gem 'bcrypt',         '3.1.7'
+gem 'faker',          '1.4.2'
+gem 'will_paginate',  '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 
 group :test do
   gem 'minitest-reporters', '1.0.5'
@@ -25,7 +29,7 @@ group :development do
 end
 
 group :production do
- # ruby   '2.1.1'
+  # ruby   '2.1.1'
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
   gem 'unicorn',        '4.8.3'
